@@ -1,5 +1,3 @@
-
-
 const add = (a, b) => {
   if (isNaN(a) || isNaN(b)) return false;
   if (Number.isInteger(a) !== true || Number.isInteger(b) !== true) {
@@ -9,10 +7,8 @@ const add = (a, b) => {
 };
 const print = (text) => {
   console.log(text);
-
 }
 
-const add = (a, b) => a + b;
 const sub = (a, b) => a - b;
 const mul = (a, b) => a * b;
 const div = (a, b) => a / b;
